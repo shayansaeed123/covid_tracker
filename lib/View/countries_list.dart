@@ -28,9 +28,10 @@ class _CountriesListState extends State<CountriesList> with TickerProviderStateM
   Widget build(BuildContext context) {
     StatesServices statesServices = StatesServices();
     return Scaffold(
+      backgroundColor: Colors.grey.shade400,
       appBar: AppBar(
         elevation: 10,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.grey.shade700,
       ),
       body: SafeArea(
         child: Column(
@@ -51,7 +52,7 @@ class _CountriesListState extends State<CountriesList> with TickerProviderStateM
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20),
                     borderSide: BorderSide(
-                      color: Colors.green,
+                      color: Colors.grey.shade900,
                       width: 2,
                     )
                   ),

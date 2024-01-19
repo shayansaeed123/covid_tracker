@@ -28,7 +28,7 @@ class _CountryDetailsState extends State<CountryDetails> {
       appBar: AppBar(
         title: Text(widget.name),
         centerTitle: true,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.grey.shade700,
         elevation: 10,
       ),
       body: Column(
@@ -41,6 +41,7 @@ class _CountryDetailsState extends State<CountryDetails> {
               Padding(
                 padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * .08),
                 child: Card(
+                  color: Colors.grey.shade900,
                   elevation: 10,
                   shadowColor: Colors.green.shade100,
                   child: Column(
